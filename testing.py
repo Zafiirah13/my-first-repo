@@ -8,9 +8,10 @@ def multiply(a, b):
     print("Multiplying numbers")
     return a * b
 
+class Operation:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
 
-# Arry adding a new function
-def subtract_add(a, b, d):
-    print("Subtracting numbers...")
-    sub = a - b
-    return sub
+    def subtract(self):
+        return self.a - self.b

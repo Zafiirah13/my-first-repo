@@ -8,4 +8,4 @@ def add(a):
 # Arry adding a new function
 def subtract(a, b, c, d):
     print("Subtracting numbers...")
-    return c + d + a - b
+    return c + d

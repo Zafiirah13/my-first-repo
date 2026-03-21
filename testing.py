@@ -6,5 +6,6 @@ def add(a):
 
 
 # Arry adding a new function
-def subtract(b):
-    return - b
+def subtract(b, c, d):
+    print("Subtracting numbers...")
+    return c + d - b

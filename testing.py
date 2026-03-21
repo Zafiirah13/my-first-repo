@@ -5,7 +5,7 @@ def add(c, a, b):
     return c + a + b
 
 def multiply(a, b):
-    print("Multiplying numbers...")
+    print("Multiplying numbers")
     return a * b
 
 

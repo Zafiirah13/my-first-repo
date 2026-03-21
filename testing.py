@@ -3,3 +3,8 @@
 # Function to add two numbers
 def add(a, b):
     return a + b
+
+
+# Arry adding a new function
+def subtract(a, b):
+    return a - b

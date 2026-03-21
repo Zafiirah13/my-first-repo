@@ -10,7 +10,7 @@ def multiply(a, b):
 
 
 # Arry adding a new function
-def subtract(a, b, c, d):
+def subtract(a, b, d):
     print("Subtracting numbers...")
-    div = a - b - c
-    return c + d
+    sub = a - b
+    return sub

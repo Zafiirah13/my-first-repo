@@ -1,21 +1,4 @@
 """This is a test file for testing purposes."""
-
-def add(a, b):
-    op_class = Operation(a,b)
-    return op_class.add()
-
-def multiply(a, b):
-    op_class = Operation(a,b)
-    return op_class.multiply()
-
-def subtract(a,b):
-    op_class = Operation(a,b)
-    return op_class.subtract()
-
-def divide(a,b):
-    op_class = Operation(a,b)
-    return op_class.divide()
-
 class Operation:
     def __init__(self, a, b):
         self.a = a
@@ -34,3 +17,19 @@ class Operation:
         if self.b != 0:
             return self.a / self.b
         return
+
+def add(a, b):
+    op_class = Operation(a,b)
+    return op_class.add()
+
+def multiply(a, b):
+    op_class = Operation(a,b)
+    return op_class.multiply()
+
+def subtract(a,b):
+    op_class = Operation(a,b)
+    return op_class.subtract()
+
+def divide(a,b):
+    op_class = Operation(a,b)
+    return op_class.divide()
